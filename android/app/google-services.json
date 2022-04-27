@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "752636995973",
+    "project_id": "hadirtersedia",
+    "storage_bucket": "hadirtersedia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752636995973:android:3bea6f902706d59fdc7cec",
+        "android_client_info": {
+          "package_name": "zia.layanan.statusharian"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "752636995973-3c8qogbiee9sg7fb46sutq6rgvmse771.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "zia.layanan.statusharian",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "752636995973-vgl7u925k990otvho6vt09d04c6lligj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBznxVM0Ng3yLdmqmPMnPECxfnNHPOao1k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "752636995973-vgl7u925k990otvho6vt09d04c6lligj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "752636995973-69sth2osc0qphghlm403856ae3vr0d37.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "zia.layanan.statusharian"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,74 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "pengguna",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "jenis_jabatan",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "urutan_data",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "pengguna",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "jenis_pengguna",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "urutan_data",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "kehadiran",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "pengguna",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "waktu_kerja",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "chats",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "users",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "last_message_time",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "chat_messages",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "chat",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "timestamp",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}
